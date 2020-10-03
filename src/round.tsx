@@ -1,3 +1,4 @@
+// Function for rounding numbers to fixed decimal (max 4)
 function Round(value: number, decimal: number) {
     if (!value) {
       return 0;

@@ -12,7 +12,7 @@ const MovingImage = ({x, y}:any) =>{
         width: 80, 
         height: 80,
         marginLeft: ((windowWidth/2)-45) - (Number(Round(x,4))*windowWidth/2),
-        marginTop: ((windowHeight/2)-240) + (Number(Round(y,4))*windowHeight/2),}}
+        marginTop: ((windowHeight/2)-240) + (Number(Round(y,4))*windowHeight/2)}}
       source={require('../assets/PacManGhost.png')}>
     </Image>
   );
