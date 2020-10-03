@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Accelerometer } from 'expo-sensors';
 
 function Data(){
@@ -14,7 +14,7 @@ function Data(){
       subscription && subscription.remove();
       subscription = null;
     };
-  }, []);
+  });
 
   const subscribe = () => {
     subscription = Accelerometer.addListener(accelerometerData => {
